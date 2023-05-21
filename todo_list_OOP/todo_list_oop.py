@@ -22,4 +22,5 @@ class TodoList:
                 if task == task_remove:
                     self.todo_list.remove(task_remove)
                     print("task removed")   
-   
+                else:
+                    print("Task not found,entre your task to remove.")
